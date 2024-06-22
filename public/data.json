@@ -1,0 +1,143 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        },
+        {
+          "label": "Contact Me",
+          "path": "#contactme"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Abhishek Kumar",
+    "title": "Full Stack Developer",
+    "location": "Motihari, Bihar",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+  },
+  "contactInfo": {
+    "email": "sahaabhishek443@gmail.com",
+    "phone": "7079268022",
+    "linkedin": "https://www.linkedin.com/in/abhishek-kumar-a03253262/",
+    "github": "https://github.com/abhishekkumar013",
+    "twitter": "https://www.instagram.com/_abhi._.arya/",
+    "website": ""
+  },
+  "skills": {
+    "languages": ["JavaScript", "C", "Java", "C++"],
+    "frameworks": ["React", "Node.js", "Express", "Next", "Spring Boot"],
+    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
+    "tools": ["Git","Vs Code"]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Stream Master",
+      "description": "This project is a Node.js application that provides a variety of endpoints for managing users, videos, playlists, subscriptions, likes, comments, and more. The application leverages JSON Web Tokens for authentication, bcrypt for password hashing, Mongoose for MongoDB object modeling, and aggregation for complex data retrieval.",
+      "technologies": ["JavaScript", "Node", "MongoDB", "Express","Bcrypt","JWT"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/abhishekkumar013/StreamMaster",
+      "cover": "/assets/project_1.webp"
+    },
+    {
+      "id": "2",
+      "title": "E-commerce",
+      "description": "Developed an e-commerce website enabling shopkeepers to create accounts, sell products, and buyers to create accounts, purchase products, and add to cart.",
+      "technologies": ["JavaScript", "Rect.js","Ant Design","Node.js","MongoDB"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/abhishekkumar013/E-commerce",
+      "cover": "/assets/project_2.png"
+    },
+    {
+      "id": "3",
+      "title": "Doctor Appointment System",
+      "description": "Developed a Doctor Appointment System where patients can create accounts and schedule appointments with doctors.Implemented a feature for users to apply as doctors, with an admin approval process etc.",
+      "technologies": ["JavaScript", "React", "Node","Ant Design","Redux","MongoDB"],
+      "live_url": "",
+      "code_repo_url": "https://github.com/abhishekkumar013/Doctor-Appointment-System",
+      "cover": "/assets/project_3.png"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "celebal technologies",
+      "companyWebsite": "https://celebaltech.com/",
+      "role": "Nodejs Developer",
+      "startDate": "July 2024",
+      "endDate": "Present",
+      "technologies": ["Node.js","Express"],
+      "keyResponsibilities": [
+        "Implemented RESTful  APIs using Node.js and Express.",
+        "Integrated third-party services and APIs to enhance application functionality."
+      ]
+    }
+    
+  ],
+  "education": [
+  
+    {
+      "id": "1",
+      "institution": "kalinga institute of industrial technology",
+      "degree": "Bachelor of Technology in Computer Science",
+      "description": "I am currently pursuing a comprehensive curriculum in computer science, focusing on topics such as data structures, algorithms, software engineering, and artificial intelligence. As part of this ongoing course, I am actively involved in projects, including the development of a web application for managing student organizations and contributing to a cancer detection system.",
+      "startDate": "Aug 2021",
+      "endDate": "Aug 2025"
+    },
+    {
+      "id": "2",
+      "institution": "MKD Public School",
+      "degree": "Senior Secondary School Certificate Examination(12th)",
+      "description": "Completed my Senior Secondary School Certificate Examination from the Central Board of Secondary Education (CBSE), specializing in Mathematics, Physics, and Chemistry.",
+      "startDate": "Apr 2019",
+      "endDate": "Mar 2021"
+    },
+    {
+      "id": "3",
+      "institution": "Shantiniketan Jubilee School ",
+      "degree": "Secondary School Certificate Examination(10th)",
+      "description": "Completed my Senior Secondary School Certificate Examination from the Central Board of Secondary Education (CBSE), specializing in Mathematics, Science,Social Science and Sanskirt.",
+      "startDate": "Apr 2018",
+      "endDate": "Mar 2019"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "avatar": "/assets/testimonial_1_avatar.jpg",
+      "title": "Project Manager",
+      "company": "Tech Solutions Inc.",
+      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+    },
+    {
+      "id": "1",
+      "name": "Mike Johnson",
+      "avatar": "/assets/testimonial_2_avatar.jpg",
+      "title": "CEO",
+      "company": "Web Innovators LLC",
+      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+    }
+  ]
+}

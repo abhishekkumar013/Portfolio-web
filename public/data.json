@@ -26,7 +26,7 @@
         "experience": true,
         "project": true,
         "education": true,
-        "testimonial": true
+        "testimonial": false
       }
     }
   },
@@ -93,10 +93,8 @@
         "Integrated third-party services and APIs to enhance application functionality."
       ]
     }
-    
   ],
   "education": [
-  
     {
       "id": "1",
       "institution": "kalinga institute of industrial technology",
@@ -115,29 +113,11 @@
     },
     {
       "id": "3",
-      "institution": "Shantiniketan Jubilee School ",
+      "institution": "Shantiniketan Jubilee School",
       "degree": "Secondary School Certificate Examination(10th)",
       "description": "Completed my Senior Secondary School Certificate Examination from the Central Board of Secondary Education (CBSE), specializing in Mathematics, Science,Social Science and Sanskirt.",
       "startDate": "Apr 2018",
       "endDate": "Mar 2019"
-    }
-  ],
-  "testimonials": [
-    {
-      "id": "1",
-      "name": "Jane Smith",
-      "avatar": "/assets/testimonial_1_avatar.jpg",
-      "title": "Project Manager",
-      "company": "Tech Solutions Inc.",
-      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
-    },
-    {
-      "id": "1",
-      "name": "Mike Johnson",
-      "avatar": "/assets/testimonial_2_avatar.jpg",
-      "title": "CEO",
-      "company": "Web Innovators LLC",
-      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
     }
   ]
 }

@@ -75,7 +75,7 @@ export const ContactMe: React.FC = () => {
             <Label htmlFor="firstname">First name</Label>
             <Input
               id="firstname"
-              placeholder="Tyler"
+              placeholder="Abhi"
               type="text"
               name="from_name"
             />
@@ -84,7 +84,7 @@ export const ContactMe: React.FC = () => {
             <Label htmlFor="lastname">Last name</Label>
             <Input
               id="lastname"
-              placeholder="Durden"
+              placeholder="Arya"
               type="text"
               name="last_name"
             />
@@ -94,7 +94,7 @@ export const ContactMe: React.FC = () => {
           <Label htmlFor="email">Email Address</Label>
           <Input
             id="email"
-            placeholder="projectmayhem@fc.com"
+            placeholder="example@gmail.com"
             type="email"
             name="from_email"
           />

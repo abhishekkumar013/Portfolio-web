@@ -37,7 +37,7 @@ export default async function Home() {
       {/* Banner Section */}
       <section id="home" className="container max-w-5xl mx-auto py-24 lg:py-32">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
-          <div className="w-1/2 mx-auto lg:w-1/3">
+          <div className="w-1/2  mx-auto lg:w-1/3">
             <Image
               src="/assets/profile.jpg"
               width={280}
@@ -55,7 +55,7 @@ export default async function Home() {
             <p className="max-w-[600px] lg:text-lg text-gray-500 dark:text-gray-400">
               {data.personalInfo.bio}
             </p>
-            <div className="space-x-4">
+            <div className="space-x-4 ">
               <Link
                 target="_blank"
                 href={data.contactInfo.github}
@@ -91,12 +91,11 @@ export default async function Home() {
                 </Button>
               </Link>
               <a
-                className="btn  text-white  px-2 py-2 rounded hover:opacity-80 transition duration-1000
-"
+                className="btn  text-white  px-2 py-2 rounded hover:opacity-80 transition duration-1000"
                 href={"/assets/cv.pdf"}
                 download="abhishek_cv.pdf"
               >
-                <Button size="sm">
+                <Button size="sm" className="mt-4 md:mt-0">
                   <FileTextIcon className="h-4 w-4 mr-2" />
                   My Resume
                 </Button>

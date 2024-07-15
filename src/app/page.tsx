@@ -26,6 +26,7 @@ import Image from "next/image";
 import { ContactMe } from "@/components/contact";
 
 import { GlobeDemo } from "@/components/globedemo";
+import Skills from "@/components/skill/Skills";
 
 // import cv from "@/public/assets/cv.pdf";
 
@@ -228,7 +229,9 @@ export default async function Home() {
           ))}
         </div>
       </section>
-
+      <section id="skills" className="items-center justify-center">
+        <Skills />
+      </section>
       {/* Testimonials Section */}
       <section
         id="contactme"

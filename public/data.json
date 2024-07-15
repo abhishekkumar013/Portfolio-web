@@ -15,6 +15,10 @@
           "path": "#education"
         },
         {
+          "label": "Skills",
+          "path": "#skills"
+        },
+        {
           "label": "Contact Me",
           "path": "#contactme"
         }
@@ -77,6 +81,15 @@
       "live_url": "",
       "code_repo_url": "https://github.com/abhishekkumar013/Doctor-Appointment-System",
       "cover": "/assets/project_3.png"
+    },
+    {
+      "id": "4",
+  "title": "Notes App",
+  "description": "Developed a Notes App where users can create, read, and delete notes. Utilized local storage to persist notes across sessions and implemented a user-friendly interface.",
+  "technologies": ["JavaScript","React","Material Ui" ],
+      "live_url": "https://vercel.com/abhishek-kumars-projects-e4571c0c/notes-app",
+      "code_repo_url": "https://github.com/abhishekkumar013/Notes-App",
+      "cover": "/assets/project_4.png"
     }
   ],
   "workExperience": [

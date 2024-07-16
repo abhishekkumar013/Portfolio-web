@@ -42,10 +42,10 @@ export const ContactMe: React.FC = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          process.env.NEXT_PUBLIC_SERVICE_ID || "", // Your service ID
-          process.env.NEXT_PUBLIC_TEMPLATE_ID || "", // Your template ID
+          process.env.NEXT_PUBLIC_SERVICE_ID || "",
+          process.env.NEXT_PUBLIC_TEMPLATE_ID || "",
           form.current,
-          process.env.NEXT_PUBLIC_PUBLIC_KEY || "" // Your public key
+          process.env.NEXT_PUBLIC_PUBLIC_KEY || ""
         )
         .then(
           (result) => {

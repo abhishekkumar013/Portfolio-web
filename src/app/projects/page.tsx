@@ -20,7 +20,7 @@ const ProjectsPage = async () => {
 
   return (
     <div className="container max-w-7xl mx-auto py-24 px-4">
-      <div className="flex items-center justify-center mb-12 text-4xl font-bold  text-center">
+      <div className="flex items-center justify-center mb-16 text-4xl font-bold  text-center">
         <span className="h-px w-12 bg-blue-500 mr-4"></span>
         <span className="mr-2">🚀</span>
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-500">

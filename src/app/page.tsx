@@ -20,6 +20,7 @@ import {
   GlobeIcon,
   FileIcon,
   FileTextIcon,
+  ArrowRightIcon,
 } from "@radix-ui/react-icons";
 import { Avatar } from "@/components/ui/avatar";
 import Image from "next/image";
@@ -152,7 +153,7 @@ export default async function Home() {
       >
         <h2 className="font-bold text-3xl md:text-4xl mb-12">My Projects</h2>
         <div className="grid grid-cols-1 gap-4 lg:gap-6">
-          {data.projects.map((project) => (
+          {data.projects.slice(0, 3).map((project) => (
             <Card key={project.title} className="flex flex-col lg:flex-row">
               <div className="w-full lg:w-1/3 p-2 flex items-center">
                 <Image
@@ -206,6 +207,14 @@ export default async function Home() {
             </Card>
           ))}
         </div>
+        <div className="mt-8 text-center">
+          <Link href="/projects">
+            <Button size="lg">
+              More Projects
+              <ArrowRightIcon className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
+        </div>
       </section>
 
       {/* Education Section */}
@@ -229,6 +238,8 @@ export default async function Home() {
           ))}
         </div>
       </section>
+
+      {/* skill section */}
       <section id="skills" className="items-center justify-center">
         <Skills />
       </section>

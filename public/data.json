@@ -3,6 +3,10 @@
     "navbar": {
       "links": [
         {
+          "label": "Home",
+          "path": "/"
+        },
+        {
           "label": "Experience",
           "path": "#experience"
         },

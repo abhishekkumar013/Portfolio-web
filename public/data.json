@@ -84,12 +84,21 @@
     },
     {
       "id": "4",
-  "title": "Notes App",
-  "description": "Developed a Notes App where users can create, read, and delete notes. Utilized local storage to persist notes across sessions and implemented a user-friendly interface.",
-  "technologies": ["JavaScript","React","Material Ui" ],
+      "title": "Notes App",
+      "description": "Developed a Notes App where users can create, read, and delete notes. Utilized local storage to persist notes across sessions and implemented a user-friendly interface.",
+      "technologies": ["JavaScript","React","Material Ui" ],
       "live_url": "https://notes-app-ten-umber.vercel.app/",
       "code_repo_url": "https://github.com/abhishekkumar013/Notes-App",
       "cover": "/assets/project_4.png"
+    },
+    {
+      "id": "5",
+      "title": "Thief Detection Alarm",
+      "description": "This project is a real-time object detection system that uses a webcam to identify people and trigger an alarm. Built with React and TensorFlow.js, it uses the COCO-SSD model for detecting human presence in the video feed. The system plays an audio alert when a person is detected. It features real-time detection with visual bounding boxes, audio alarms for detected persons, and a responsive design. Future improvements include customizable detection sensitivity, multiple camera support, a mobile app version, and integration with home security systems.",
+      "technologies": ["React", "Next.js", "TensorFlow.js", "COCO-SSD"],
+      "live_url": "https://object-detection-system.netlify.app/",
+      "code_repo_url": "https://github.com/abhishekkumar013/Object-Detection-System",
+      "cover": "/assets/project_5.png"
     }
   ],
   "workExperience": [

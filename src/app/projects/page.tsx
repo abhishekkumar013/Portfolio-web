@@ -19,9 +19,9 @@ const ProjectsPage = async () => {
   const data = await getData();
 
   return (
-    <div className="container max-w-7xl mx-auto py-24 px-4">
-      <div className="flex items-center justify-center mb-16 text-4xl font-bold  text-center">
-        <span className="h-px w-12 bg-blue-500 mr-4"></span>
+    <div className="container max-w-7xl mx-auto py-12 px-4 mt-4 sm:py-24">
+      <div className="flex flex-wrap items-center justify-center mb-8 sm:mb-16 text-2xl sm:text-4xl font-bold text-center">
+        <span className="hidden sm:block h-px w-12 bg-blue-500 mr-4"></span>
         <span className="mr-2">🚀</span>
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-500">
           My
@@ -30,13 +30,13 @@ const ProjectsPage = async () => {
           Projects
         </span>
         <span className="ml-2">🚀</span>
-        <span className="h-px w-12 bg-blue-500 ml-4"></span>
+        <span className="hidden sm:block h-px w-12 bg-blue-500 ml-4"></span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 auto-rows-fr">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {data.projects.map((project, index) => (
           <Card
             key={project.title}
-            className={`flex flex-col h-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg ${
+            className={`flex flex-col transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg ${
               index === data.projects.length - 1 &&
               data.projects.length % 2 !== 0
                 ? "md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto"
@@ -69,7 +69,7 @@ const ProjectsPage = async () => {
                 </CardDescription>
               </CardContent>
               <CardFooter className="mt-auto justify-center">
-                <div className="flex space-x-4">
+                <div className="flex flex-wrap justify-center gap-4">
                   <Link
                     href={project.live_url}
                     target="_blank"
